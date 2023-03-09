@@ -28,4 +28,4 @@ const options = {
 flatpickr(flatpickrInput, options);
 
 console.log('currentTime', currentTime);
-console.log('selectedTime', selectedTime.time);
+// console.log('selectedTime', selectedTime.time);
