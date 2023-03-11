@@ -45,8 +45,9 @@ function convertMs(ms) {
 
   return { days, hours, minutes, seconds };
 }
-
-addLeadingZero = value => value.toString().padStart(2, '0');
+function addLeadingZero(value) {
+  return value.toString().padStart(2, '0');
+}
 
 startButton.addEventListener('click', () => {
   let timerStart = setInterval(() => {
